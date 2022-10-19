@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Yvalcorp RELEASES Nexus Repository</name>
-	      <url>http://192.168.56.7:8081/repository/tesla-releases/</url>
+	      <url>http://192.168.56.7:8081/repository/tesla-fe-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Yvalcorp SNAPSHOT Nexus Repository </name>
-	      <url>http://192.168.56.7:8081/repository/tesla-snapshots/</url>
+	      <url>http://192.168.56.7:8081/repository/tesla-fe-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
