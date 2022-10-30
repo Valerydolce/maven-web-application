@@ -6,7 +6,8 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.3-SNAPSHOT</version> 
+	<version>0.0.3</version> 
+	<!-- use this in the version tag for SNAPSHOT releases: 0.0.3-SNAPSHOT -->
 	
 	<name>maven-web-application</name>
 
