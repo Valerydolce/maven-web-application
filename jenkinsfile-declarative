@@ -1,16 +1,16 @@
-pipeline{
+pipeline {
   agent any 
   tools {
-    maven "maven3.6.0"
+    maven "maven 3.8.6"
   }  
   stages {
-    stage('1GetCode'){
+    stage('1 - GetCode'){
       steps{
         sh "echo 'cloning the latest application version' "
-        git branch: 'feature', credentialsId: 'gitHubCredentials', url: 'https://github.com/LandmakTechnology/maven-web-application'
+        git branch: 'tesla-prod-declarative', url: 'https://github.com/Valerydolce/maven-web-application.git'
       }
     }
-    stage('3Test+Build'){
+    stage('3 - Test+Build'){
       steps{
         sh "echo 'running JUnit-test-cases' "
         sh "echo 'testing must passed to create artifacts ' "
