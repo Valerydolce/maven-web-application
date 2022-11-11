@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application-prod</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.3</version> 
+	<version>0.0.4</version> 
 	<!-- use this in the version tag for SNAPSHOT releases: 0.0.3-SNAPSHOT -->
 	
 	<name>maven-web-application</name>
@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app-prod</finalName>
+		<finalName>ebay-app</finalName>
 		
 		<plugins>
 			<plugin>
