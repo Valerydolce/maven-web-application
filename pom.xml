@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app-prod-decl</finalName>
+		<finalName>maven-web-app-prod</finalName>
 		
 		<plugins>
 			<plugin>
